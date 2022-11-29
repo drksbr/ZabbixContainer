@@ -5,8 +5,6 @@ volumes:
     driver: local
   grafana_data:
     driver: local
-  pgadmin_data:
-    driver: local
 
 services:
   zabbix-server:
